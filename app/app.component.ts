@@ -1,10 +1,11 @@
-import { Componet } from '@angular/core';
 
-@Component Annotations ({
+import { Component } from '@angular/core';
+
+@Component({
   selector: 'my-app',
-  template: '
+  template: `
   <h1>My First Angular 2 App</h1>
-  '
+  `
 })
 
 export class AppComponent {
